@@ -3,7 +3,7 @@
     function SectionTienda($tituloTienda,$textoTienda,$btnTienda){
 
         require_once 'componentes/ilustraciones/tienda.php';
-        $tienda= Tienda('assets/img/logo-runalotus.png');
+        $tienda= Tienda('assets/img/logo-runalotus.png','assets/img/diamante.png','assets/img/bolso.png','assets/img/artesania.png','assets/img/sombrero.png','assets/img/tejido.png','assets/img/jarron.png','assets/img/jarron1.png','assets/img/aretes.png');
 
 
         echo '

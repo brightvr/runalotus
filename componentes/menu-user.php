@@ -1,7 +1,7 @@
 <?php
 
 //aqui se imprime todo el menu desplegable tanto de escritorio como de celular
-    function MenuUsuarioSinRegistro($correo,$contraseña,$registrarse,$ingresar,$nombre,$pais,$celular,$idioma,$español,$ingles,$portugues,$save,$tiendaPage,$turismoPage,$inicioPage,$olvidar){
+    function MenuUsuarioSinRegistro($correo,$contraseña,$registrarse,$ingresar,$nombre,$pais,$celular,$idioma,$español,$ingles,$portugues,$aleman,$ruso,$chino,$save,$tiendaPage,$turismoPage,$inicioPage,$olvidar,$selectIdioma,$terminos){
 
 
         //css
@@ -19,6 +19,10 @@
     color: #A97A00;
     display: flex;
     margin: 3px;
+}
+.terminos{
+
+    color: #A97A00;
 }
 
 .nav-celular{
@@ -297,7 +301,7 @@ a:hover{
                 <br>
                 <input type="password" name="contraseña-usuario" required>
                 <br><br>
-                <input type="checkbox" required ><label>-Acepto <a href="">términos y condiciones</a></label><br><br>
+                <input type="checkbox" required ><label> <div class="terminos">'.$terminos.'</div></label><br><br>
                 
                 <button type="submit" class="btn fondo-1 btn-block"><h3>'.$registrarse.'</h3></button>
                 
@@ -313,13 +317,16 @@ a:hover{
 
                 <div class="cambiar-idioma  contenedor-form-registrarse">
 
-                <form action="" method="post">
+                <form action="idioma/idioma.php" method="post">
 
-                    <label>Seleccionar idioma</label><br>
+                    <label>'.$selectIdioma.'</label><br>
                     <select name="idioma">
                         <option value="Español">'.$español.'</option>
                         <option value="Ingles">'.$ingles.'</option>
-                        <option value="Portuges">'.$portugues.'</option>
+                        <option value="Portugues">'.$portugues.'</option>
+                        <option value="">'.$aleman.'</option>
+                        <option value="">'.$ruso.'</option>
+                        <option value="">'.$chino.'</option>
                         
                     </select>
 
@@ -400,6 +407,9 @@ a:hover{
     
     
         //__________________________________________________________________________________________________-
+
+
+
     
         $(".menu-desktop").on("click",function(){
     
@@ -497,7 +507,7 @@ a:hover{
                                 <br>
                                 <input type="password" name="contraseña-usuario" required>
                                 <br><br>
-                                <input type="checkbox" required ><label>-Acepto <a href="">términos y condiciones</a></label><br><br>
+                                <input type="checkbox" required ><label> <div class="terminos">'.$terminos.'</div></label><br><br>
                                 
                                 <button type="submit" class="btn fondo-1 btn-block"><h3>'.$registrarse.'</h3></button>
                                 
@@ -513,13 +523,16 @@ a:hover{
 
                         <div class="cambiar-idioma  contenedor-form-registrarse">
         
-                        <form action="" method="post">
+                        <form action="idioma/idioma.php" method="post">
         
-                            <label>Seleccionar idioma</label><br>
+                            <label>'.$selectIdioma.'</label><br>
                             <select name="idioma">
-                                <option value="Español">'.$español.'</option>
-                                <option value="Ingles">'.$ingles.'</option>
-                                <option value="Portuges">'.$portugues.'</option>
+                                <option  value="Español">'.$español.'</option>
+                                <option  value="Ingles">'.$ingles.'</option>
+                                <option  value="Portugues">'.$portugues.'</option>
+                                <option  value="">'.$aleman.'</option>
+                                <option  value="">'.$ruso.'</option>
+                                <option  value="">'.$chino.'</option>
                                 
                             </select>
         

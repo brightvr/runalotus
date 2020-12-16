@@ -1,5 +1,26 @@
 <?php
 
+
+//cambio de idoma manualmente
+session_start();
+if(isset($_SESSION['idioma'])){
+
+  require_once 'idioma/idioma.php';
+  $lenguaje=IdiomaUsuaraio($_SESSION['idioma']);
+
+
+}else{
+
+  //detectando idioma por defecto
+  require_once 'idioma/idioma.php';
+  $lenguaje=IdiomaUsuaraio(1);
+  //var_dump($lenguaje);
+
+}
+
+
+
+
 $estilos=[
     'librerias/bootstrap/css/bootstrap.css',
     'librerias/icons/css/all.css',
@@ -26,13 +47,13 @@ $estilos=[
   
   //navbar
   require_once 'componentes/navbar.php';
-  Navbar('Inicio','Tienda','Turismo','<i class="fas fa-user"></i>');
+  Navbar($lenguaje['inicio'],$lenguaje['tienda'],$lenguaje['turismo'],'<i class="fas fa-user"></i>');
   
   
   
   //menu usuarios sin registro
   require_once 'componentes/menu-user.php';
-  MenuUsuarioSinRegistro('Correo electronico','Contraseña','Registrarse','Ingresar','Nombre de usuario','Pais','Celular','Idioma','Español','Ingles','Portugues','Guardar','Tienda','Turismo','Inicio','¿Olvidaste tu contraseña?');
+  MenuUsuarioSinRegistro($lenguaje['email'],$lenguaje['contraseña'],$lenguaje['registrarse'],$lenguaje['ingresar'],$lenguaje['usuario'],$lenguaje['pais'],$lenguaje['celular'],$lenguaje['idiomaInterfaz'],$lenguaje['español'],$lenguaje['ingles'],$lenguaje['portuges'],$lenguaje['aleman'],$lenguaje['ruso'],$lenguaje['Mandarin'],$lenguaje['guardar'],$lenguaje['tienda'],$lenguaje['turismo'],$lenguaje['inicio'],$lenguaje['olvidar'],$lenguaje['selectIdioma'],$lenguaje['Terminos']);
 
 
   //cierre 

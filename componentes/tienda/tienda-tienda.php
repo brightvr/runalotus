@@ -1,9 +1,9 @@
 <?php
     
-    function PortadaTienda(){
+    function PortadaTienda($exportadores){
 
         require_once 'componentes/ilustraciones/tienda.php';
-        $tienda= Tienda('assets/img/logo-runalotus.png');
+        $tienda= Tienda('assets/img/logo-runalotus.png','assets/img/diamante.png','assets/img/bolso.png','assets/img/artesania.png','assets/img/sombrero.png','assets/img/tejido.png','assets/img/jarron.png','assets/img/jarron1.png','assets/img/aretes.png');
 
         echo '
             
@@ -13,7 +13,7 @@
 
             <div class="boton-exportadores d-flex justify-content-center">
 
-                <div class="btn btn-danger btn-exportadores">Somos exportadores de nuestra cultura</div>
+                <div class="btn btn-danger btn-exportadores">'.$exportadores.'</div>
 
             </div>
            
