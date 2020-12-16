@@ -33,7 +33,7 @@
     }
 
     //visualizar idioma del navegador
-    var_dump($data_read[0]);
+    //var_dump($data_read[0]);
 
 
     if($LanguajeDefault===1){
