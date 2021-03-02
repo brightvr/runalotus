@@ -41,10 +41,10 @@ class ConexionDB{
 }
 
 //credenciales produccion
-$miconexion= new ConexionDB('localhost','u418177199_davidc12997','5719326David','u418177199_runaInterfaces');
+//$miconexion= new ConexionDB('localhost','u418177199_davidc12997','5719326David','u418177199_runaInterfaces');
 
 //credenciales desarrollo
-//$miconexion= new ConexionDB('5.181.218.103','u418177199_davidc12997','5719326David','u418177199_runaInterfaces');
+$miconexion= new ConexionDB('5.181.218.103','u418177199_davidc12997','5719326David','u418177199_runaInterfaces');
 
 
 

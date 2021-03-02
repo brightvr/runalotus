@@ -1,6 +1,9 @@
 <?php
+    
 
     function Head($idioma,$titulo,$ruta_estilos){
+
+        
 
         echo '
 
@@ -28,6 +31,19 @@
 
         </head>
         <body>
+        <div  class="d-flex justify-content-end" style="">
+
+            <div  style="position:fixed; margin-top:55px;" class="btn-danger d-flex justify-content-center">
+
+                <span style="margin:5px; font-size:19px;"><i class="fas fa-language"></i></span>
+                <p  style="margin:5px; font-size:18px;">/</p>
+                <span style="margin:5px; font-size:18px;"><i class="fas fa-dollar-sign"></i></span>
+                
+            </div>
+       
+        </div>
+
+
         
         
         ';

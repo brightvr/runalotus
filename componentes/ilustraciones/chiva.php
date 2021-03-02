@@ -2149,9 +2149,7 @@ function CarroColombia(){
     
     <script>
     $(window).on("load",function(){
-
-
-      let carroColombia=document.getElementsByTagName("svg")[2];
+      let carroColombia=document.getElementsByTagName("svg")[4];
   
       console.log(carroColombia)
       //console.log(carroColombia.viewBox.animVal.x);

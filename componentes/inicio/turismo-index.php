@@ -115,7 +115,7 @@ function SectionTurismo($tittle,$p1,$p2,$p3,$conocer_mas){
             
                 .card-turismo > p{
 
-                    font-size:35px;
+                    font-size:30px;
                 }
 
                 .section-turismo-desktop{

@@ -52,21 +52,17 @@
 .vinculo-celular{
 
     width: 90%;
-    background: white;
-    color: #A97A00;
+    background:  #A20004;
+    color:white;
     display: flex;
     justify-content: center;
     font-size: 30px;
     margin-top: 30px;
     margin-left: 5%;
-
-}
-
-.vinculo-celular:hover{
-    background: #A20004;
-    color: white;
     box-shadow: 4px 4px 5px black;
+
 }
+
 
 
 .elegido{
@@ -209,10 +205,43 @@ a:hover{
     
     
                 <div class="contenedor-menu-nav-cel">
-    
-    
-                
                 </div><br>
+                <br>
+
+
+
+                
+                <div class="vinculo-celular btn-idioma">'.$idioma.'</div>
+
+
+                <div class="cambiar-idioma  contenedor-form-registrarse">
+
+                    <form action="idioma/idioma.php" method="post">
+
+                        <label>'.$selectIdioma.'</label><br>
+                        <select name="idioma">
+                            <option value="Español">'.$español.'</option>
+                            <option value="Ingles">'.$ingles.'</option>
+                            <option value="Portugues">'.$portugues.'</option>
+                            <option value="">'.$aleman.'</option>
+                            <option value="">'.$ruso.'</option>
+                            <option value="">'.$chino.'</option>
+                            
+                        </select>
+
+                        <input type="submit" class="btn fondo-1" value="'.$save.'">
+                    
+                    
+                    </form>
+                
+
+                
+                </div>
+
+
+
+
+
                 <br>
                 <div class="linea"></div>
                 <br>
@@ -312,32 +341,7 @@ a:hover{
     
     
     
-                <div class="vinculo-celular btn-idioma">'.$idioma.'</div>
 
-
-                <div class="cambiar-idioma  contenedor-form-registrarse">
-
-                <form action="idioma/idioma.php" method="post">
-
-                    <label>'.$selectIdioma.'</label><br>
-                    <select name="idioma">
-                        <option value="Español">'.$español.'</option>
-                        <option value="Ingles">'.$ingles.'</option>
-                        <option value="Portugues">'.$portugues.'</option>
-                        <option value="">'.$aleman.'</option>
-                        <option value="">'.$ruso.'</option>
-                        <option value="">'.$chino.'</option>
-                        
-                    </select>
-
-                    <input type="submit" class="btn fondo-1" value="'.$save.'">
-                
-                
-                </form>
-                
-
-                
-                </div>
     
     
     
@@ -425,6 +429,41 @@ a:hover{
                         </div>
                         <br>
 
+
+
+                        <div class="vinculo-celular btn-idioma">'.$idioma.'</div>
+
+
+                        <div class="cambiar-idioma  contenedor-form-registrarse">
+        
+                            <form action="idioma/idioma.php" method="post">
+            
+                                <label>'.$selectIdioma.'</label><br>
+                                <select name="idioma">
+                                    <option  value="Español">'.$español.'</option>
+                                    <option  value="Ingles">'.$ingles.'</option>
+                                    <option  value="Portugues">'.$portugues.'</option>
+                                    <option  value="">'.$aleman.'</option>
+                                    <option  value="">'.$ruso.'</option>
+                                    <option  value="">'.$chino.'</option>
+                                    
+                                </select>
+            
+                                <input type="submit" class="btn fondo-1" value="'.$save.'">
+                            
+                            
+                            </form>
+                        
+        
+                            <br>
+                            <br>
+                        </div>
+
+
+
+
+
+                        <br>
                         <div class="vinculo-celular btn-ingreso">
                         '.$ingresar.'
                         <span class="ingresar-flecha"><i class="fas fa-sign-in-alt"></i></span>
@@ -518,33 +557,7 @@ a:hover{
                         </div>
                         <br>
                         <br>
-                        <div class="vinculo-celular btn-idioma">'.$idioma.'</div>
-
-
-                        <div class="cambiar-idioma  contenedor-form-registrarse">
-        
-                        <form action="idioma/idioma.php" method="post">
-        
-                            <label>'.$selectIdioma.'</label><br>
-                            <select name="idioma">
-                                <option  value="Español">'.$español.'</option>
-                                <option  value="Ingles">'.$ingles.'</option>
-                                <option  value="Portugues">'.$portugues.'</option>
-                                <option  value="">'.$aleman.'</option>
-                                <option  value="">'.$ruso.'</option>
-                                <option  value="">'.$chino.'</option>
-                                
-                            </select>
-        
-                            <input type="submit" class="btn fondo-1" value="'.$save.'">
-                        
-                        
-                        </form>
-                        
-        
-                        <br>
-                        <br>
-                        </div>
+                       
                         <br>
                         <br>
                         

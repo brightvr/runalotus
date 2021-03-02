@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 993.5 717">
+  <defs>
+    <style>
+      .f86b6f6b-571e-4266-b05b-3fc62c90c9a9 {
+        fill: #a20004;
+      }
+
+      .a8693f72-6848-43ee-b42b-e06cfbc59eaf, .b2647427-a668-4b70-ae5b-4856b784f0db, .befd4240-761f-47b4-a548-fd2a3b96459a, .e004c829-e2de-4ca6-9300-67de82456464, .e9e5ac76-f787-434a-9d31-9cba56ac79b7 {
+        fill: #fff;
+      }
+
+      .bb09db68-3c3a-4f0b-ad97-6db9b99f8ed4 {
+        fill: #a97a00;
+      }
+
+      .befd4240-761f-47b4-a548-fd2a3b96459a {
+        font-size: 24.6px;
+      }
+
+      .a8693f72-6848-43ee-b42b-e06cfbc59eaf, .b2647427-a668-4b70-ae5b-4856b784f0db, .befd4240-761f-47b4-a548-fd2a3b96459a, .e004c829-e2de-4ca6-9300-67de82456464, .f59d59b3-b356-4558-a316-b52853755d40 {
+        font-family: Rockwell;
+      }
+
+      .fdd0f7d2-49d0-460b-89a4-705200e3aced {
+        letter-spacing: 0.02em;
+      }
+
+      .a8693f72-6848-43ee-b42b-e06cfbc59eaf {
+        font-size: 21.34px;
+      }
+
+      .bed20359-2941-4bbe-a5d1-d8ca0bda1a8f {
+        letter-spacing: -0.02em;
+      }
+
+      .bdfe8cbe-5aaf-47a6-8924-a7abde22dcc6 {
+        letter-spacing: 0em;
+      }
+
+      .e004c829-e2de-4ca6-9300-67de82456464 {
+        font-size: 29.36px;
+      }
+
+      .ef4eff4e-127c-4832-9610-dc2a95c8d8a3 {
+        font-size: 22px;
+      }
+
+      .f59d59b3-b356-4558-a316-b52853755d40 {
+        font-size: 20px;
+      }
+
+      .a7fd9de5-ae12-4b99-94bc-2371f4703f78 {
+        letter-spacing: -0.02em;
+      }
+
+      .b2647427-a668-4b70-ae5b-4856b784f0db {
+        font-size: 35.25px;
+      }
+
+      .ac45a965-9785-4d1c-9ca1-5887eee1f988 {
+        fill: none;
+        stroke: #a97a00;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <title>nuevo-card</title>
+  <g id="a3dd59b9-d44b-4dda-b924-dd3be9d2c88f" data-name="decoracion">
+    <polygon class="f86b6f6b-571e-4266-b05b-3fc62c90c9a9" points="993 228.5 633 228.5 633.5 156.5 993.5 156.5 993 228.5"/>
+    <image width="1500" height="287" transform="scale(0.24 0.24)" xlink:href="colombia.png"/>
+    <g>
+      <polygon class="e9e5ac76-f787-434a-9d31-9cba56ac79b7" points="663.44 211.44 661.67 213.34 663.44 215.24 665.21 213.34 663.44 211.44"/>
+      <polygon class="e9e5ac76-f787-434a-9d31-9cba56ac79b7" points="666.98 211.44 665.21 213.34 666.98 215.24 668.75 213.34 666.98 211.44"/>
+      <polygon class="e9e5ac76-f787-434a-9d31-9cba56ac79b7" points="670.52 211.44 668.75 213.34 670.52 215.24 672.29 213.34 670.52 211.44"/>
+      <polygon class="e9e5ac76-f787-434a-9d31-9cba56ac79b7" points="674.05 211.44 672.29 213.34 674.05 215.24 675.82 213.34 674.05 211.44"/>
+      <polygon class="e9e5ac76-f787-434a-9d31-9cba56ac79b7" points="677.59 211.44 675.82 213.34 677.59 215.24 679.36 213.34 677.59 211.44"/>
+      <polygon class="e9e5ac76-f787-434a-9d31-9cba56ac79b7" points="681.13 211.44 679.36 213.34 681.13 215.24 682.9 213.34 681.13 211.44"/>
+      <path class="e9e5ac76-f787-434a-9d31-9cba56ac79b7" d="M61.55,41.49l4-4.27-5.69-6.09-20.57-22-20.58,22L13,37.22l4,4.27-4,4.28,3.27,3.5L13,52.78l5.68,6.09,5.68-6.09-3.28-3.51,3.28-3.5-4-4.28,3.14-3.36L39.29,55,55,38.13l3.13,3.36-4,4.28,3.28,3.5-3.28,3.51,5.68,6.09,5.69-6.09-3.28-3.51,3.28-3.5Zm-22.26,11L24.73,36.86,39.29,21.27,53.84,36.86Z" transform="translate(633 156)"/>
+      <line class="e9e5ac76-f787-434a-9d31-9cba56ac79b7" x1="672.29" y1="186.23" x2="672.29" y2="200.01"/>
+      <line class="e9e5ac76-f787-434a-9d31-9cba56ac79b7" x1="672.29" y1="202.83" x2="672.29" y2="205.09"/>
+      <polyline class="e9e5ac76-f787-434a-9d31-9cba56ac79b7" points="669.98 189.93 667.53 188.03 665.07 189.93"/>
+      <polyline class="e9e5ac76-f787-434a-9d31-9cba56ac79b7" points="679.5 189.93 677.04 188.03 674.59 189.93"/>
+      <line class="e9e5ac76-f787-434a-9d31-9cba56ac79b7" x1="669.58" y1="200.01" x2="675.14" y2="200.01"/>
+      <line class="e9e5ac76-f787-434a-9d31-9cba56ac79b7" x1="661.35" y1="192.86" x2="668.79" y2="192.86"/>
+      <line class="e9e5ac76-f787-434a-9d31-9cba56ac79b7" x1="661.35" y1="195.13" x2="668.79" y2="195.13"/>
+      <line class="e9e5ac76-f787-434a-9d31-9cba56ac79b7" x1="675.78" y1="192.82" x2="683.22" y2="192.82"/>
+      <line class="e9e5ac76-f787-434a-9d31-9cba56ac79b7" x1="675.78" y1="195.09" x2="683.22" y2="195.09"/>
+      <polygon class="e9e5ac76-f787-434a-9d31-9cba56ac79b7" points="682.95 163 680.63 165.49 680.63 172.28 682.95 174.76 685.27 172.28 685.27 165.49 682.95 163"/>
+      <polyline class="e9e5ac76-f787-434a-9d31-9cba56ac79b7" points="680.63 165.91 682.95 167.83 685.27 165.91"/>
+    </g>
+  </g>
+  <g id="f9208180-9f07-43e1-95cf-95f2595f734f" data-name="nombre-produto-contenedor">
+    <rect class="bb09db68-3c3a-4f0b-ad97-6db9b99f8ed4" x="633" y="252" width="360" height="38" rx="3"/>
+    <g id="f7ef9290-3b9d-4c3e-9fae-5033f6ffc947" data-name="nombre-producto">
+      <text class="befd4240-761f-47b4-a548-fd2a3b96459a" transform="translate(727 278.84)">T<tspan class="fdd0f7d2-49d0-460b-89a4-705200e3aced" x="14.1" y="0">r</tspan><tspan x="24.85" y="0">io de Copitas</tspan></text>
+      <text class="a8693f72-6848-43ee-b42b-e06cfbc59eaf" transform="translate(708.27 203.92)">CULTURAS COLOMBIA<tspan class="bed20359-2941-4bbe-a5d1-d8ca0bda1a8f" x="227.2" y="0">N</tspan><tspan class="bdfe8cbe-5aaf-47a6-8924-a7abde22dcc6" x="242.22" y="0">AS</tspan></text>
+    </g>
+  </g>
+  <g id="b04b9e67-70cd-4991-9c68-51cacc99af1d" data-name="foto">
+    <image width="1500" height="997" transform="translate(633 291.69) scale(0.24)" xlink:href="productos/copas-png.png"/>
+  </g>
+  <g id="e1c7e567-35f0-4e8a-bfad-84b474d6f4a9" data-name="precio-contenedor">
+    <rect class="bb09db68-3c3a-4f0b-ad97-6db9b99f8ed4" x="650" y="535" width="327" height="47" rx="3"/>
+    <g id="ece0be98-81de-459c-baf4-2809d23c2856" data-name="precio">
+      <text class="e004c829-e2de-4ca6-9300-67de82456464" transform="translate(715.4 566.65)">38.000 <tspan class="ef4eff4e-127c-4832-9610-dc2a95c8d8a3" x="95.48" y="0">pesos cop</tspan></text>
+    </g>
+  </g>
+  <g id="a973f464-c843-4324-9079-2e1d48f999f5" data-name="stock">
+    <text class="f59d59b3-b356-4558-a316-b52853755d40" transform="translate(661 612.18)">Stock disponi<tspan class="a7fd9de5-ae12-4b99-94bc-2371f4703f78" x="123.77" y="0">b</tspan><tspan x="136.29" y="0">le</tspan></text>
+  </g>
+  <g id="ac297f00-8443-432c-a044-28b41bde4e1f" data-name="nemero stock">
+    <rect class="f86b6f6b-571e-4266-b05b-3fc62c90c9a9" x="883" y="590" width="63" height="31"/>
+    <text class="e004c829-e2de-4ca6-9300-67de82456464" transform="translate(906.11 614.74)">2</text>
+  </g>
+  <g id="f72a9fbc-0591-4107-bbcf-4273c06472d3" data-name="boton comprar">
+    <rect class="f86b6f6b-571e-4266-b05b-3fc62c90c9a9" x="650" y="658" width="326" height="59" rx="3"/>
+    <text class="b2647427-a668-4b70-ae5b-4856b784f0db" transform="translate(732.62 700.41)">COMPRAR</text>
+    <line class="ac45a965-9785-4d1c-9ca1-5887eee1f988" x1="650" y1="631.5" x2="977" y2="631.5"/>
+    <line class="ac45a965-9785-4d1c-9ca1-5887eee1f988" x1="650" y1="582.5" x2="977" y2="582.5"/>
+  </g>
+</svg>

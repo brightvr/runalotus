@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 360 557">
+  <defs>
+    <style>
+      .b270162c-bf84-45b4-8cfd-42de6f428ce7, .e480deff-e87b-4cad-86e2-73c0215e11c7 {
+        fill: none;
+        stroke-miterlimit: 10;
+      }
+
+      .e480deff-e87b-4cad-86e2-73c0215e11c7 {
+        stroke: #a20004;
+      }
+
+      .f02d93eb-b6e9-4eaa-ab1a-66c1d2f52ece {
+        fill: #a97a00;
+      }
+
+      .f4310e3d-96e6-44da-a478-4b1f4d228a32 {
+        font-size: 24.6px;
+      }
+
+      .beaf2ab5-078f-4bce-8bfa-dce6708a5ab2, .e056092b-abc5-417e-bac9-871cc6d717be, .f4310e3d-96e6-44da-a478-4b1f4d228a32 {
+        fill: #fff;
+      }
+
+      .bd930221-4172-4df6-878b-c762b03a6795, .beaf2ab5-078f-4bce-8bfa-dce6708a5ab2, .e056092b-abc5-417e-bac9-871cc6d717be, .f4310e3d-96e6-44da-a478-4b1f4d228a32 {
+        font-family: Rockwell;
+      }
+
+      .bfc145f1-57b0-4992-a9cc-cfd79fcd3fd9 {
+        letter-spacing: 0.02em;
+      }
+
+      .beaf2ab5-078f-4bce-8bfa-dce6708a5ab2 {
+        font-size: 29.36px;
+      }
+
+      .ad1b430b-c05f-497f-b49b-814a9e446651 {
+        font-size: 22px;
+      }
+
+      .bd930221-4172-4df6-878b-c762b03a6795 {
+        font-size: 20px;
+      }
+
+      .bf3422b7-de49-4f65-bcdb-87a239ee4271 {
+        letter-spacing: -0.02em;
+      }
+
+      .b5d46084-ea3d-409d-a241-04a4c9747c8f {
+        fill: #a20004;
+      }
+
+      .e056092b-abc5-417e-bac9-871cc6d717be {
+        font-size: 35.25px;
+      }
+
+      .b270162c-bf84-45b4-8cfd-42de6f428ce7 {
+        stroke: #a97a00;
+      }
+    </style>
+  </defs>
+  <title>cared1</title>
+  <g id="a402f716-2d9f-4bcb-961c-68cdc4ed6b6c" data-name="decoracion">
+    <line class="e480deff-e87b-4cad-86e2-73c0215e11c7" y1="68.5" x2="360" y2="68.5"/>
+    <image width="1500" height="287" transform="scale(0.24 0.24)" xlink:href="colombia.png"/>
+  </g>
+  <g id="fb89e1bb-9db5-49dc-afa1-2860f868996a" data-name="nombre-produto-contenedor">
+    <rect class="f02d93eb-b6e9-4eaa-ab1a-66c1d2f52ece" y="92" width="360" height="38" rx="3"/>
+    <g id="aaf9957d-f082-4836-98c7-76acc8bdf7e1" data-name="nombre-producto">
+      <text class="f4310e3d-96e6-44da-a478-4b1f4d228a32" transform="translate(94 118.84)">T<tspan class="bfc145f1-57b0-4992-a9cc-cfd79fcd3fd9" x="14.1" y="0">r</tspan><tspan x="24.85" y="0">io de Copitas</tspan></text>
+    </g>
+  </g>
+  <g id="e45ef745-24dc-4687-affd-506a67b0cbce" data-name="foto">
+    <image width="1500" height="997" transform="translate(0 131.69) scale(0.24)" xlink:href="productos/copas-png.png"/>
+  </g>
+  <g id="be1b1681-dded-4ab3-b95f-9c8ac21a5381" data-name="precio-contenedor">
+    <rect class="f02d93eb-b6e9-4eaa-ab1a-66c1d2f52ece" x="17" y="375" width="327" height="47" rx="3"/>
+    <g id="bf09ca0e-089f-4217-9cca-8302ee208a08" data-name="precio">
+      <text class="beaf2ab5-078f-4bce-8bfa-dce6708a5ab2" transform="translate(82.4 406.65)">38.000 <tspan class="ad1b430b-c05f-497f-b49b-814a9e446651" x="95.48" y="0">pesos cop</tspan></text>
+    </g>
+  </g>
+  <g id="ed59f1cd-7965-458e-8c95-144ca6a9c183" data-name="stock">
+    <text class="bd930221-4172-4df6-878b-c762b03a6795" transform="translate(28 452.18)">Stock disponi<tspan class="bf3422b7-de49-4f65-bcdb-87a239ee4271" x="123.77" y="0">b</tspan><tspan x="136.29" y="0">le</tspan></text>
+  </g>
+  <g id="eedf8b23-f910-4cd0-92ef-752ac7cfae69" data-name="nemero stock">
+    <rect class="b5d46084-ea3d-409d-a241-04a4c9747c8f" x="250" y="430" width="63" height="31"/>
+    <text class="beaf2ab5-078f-4bce-8bfa-dce6708a5ab2" transform="translate(273.11 454.74)">2</text>
+  </g>
+  <g id="b6243977-0100-440d-b156-cb3ff4e9921e" data-name="boton comprar">
+    <rect class="b5d46084-ea3d-409d-a241-04a4c9747c8f" x="17" y="498" width="326" height="59" rx="3"/>
+    <text class="e056092b-abc5-417e-bac9-871cc6d717be" transform="translate(99.62 540.41)">COMPRAR</text>
+    <line class="b270162c-bf84-45b4-8cfd-42de6f428ce7" x1="17" y1="471.5" x2="344" y2="471.5"/>
+    <line class="b270162c-bf84-45b4-8cfd-42de6f428ce7" x1="17" y1="422.5" x2="344" y2="422.5"/>
+  </g>
+</svg>
