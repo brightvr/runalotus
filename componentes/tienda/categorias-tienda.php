@@ -28,7 +28,7 @@
 
                 background:#A97A00;
                 width:50%;
-                font-size:22px;
+                font-size:20px;
                 border-radius:0 7px 7px 0;
                
 

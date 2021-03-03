@@ -28,7 +28,8 @@ $estilos=[
 $scripts=[
 
   'librerias/bootstrap/js/bootstrap.min.js',
-  'librerias/icons/js/all.js'
+  'librerias/icons/js/all.js',
+  'https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'
 
 
 ];
@@ -53,6 +54,7 @@ Navbar($lenguaje['inicio'],$lenguaje['tienda'],$lenguaje['turismo'],'<i class="f
 //menu usuarios sin registro
 require_once 'componentes/menu-user.php';
 MenuUsuarioSinRegistro($lenguaje['email'],$lenguaje['contraseña'],$lenguaje['registrarse'],$lenguaje['ingresar'],$lenguaje['usuario'],$lenguaje['pais'],$lenguaje['celular'],$lenguaje['idiomaInterfaz'],$lenguaje['español'],$lenguaje['ingles'],$lenguaje['portuges'],$lenguaje['aleman'],$lenguaje['ruso'],$lenguaje['Mandarin'],$lenguaje['guardar'],$lenguaje['tienda'],$lenguaje['turismo'],$lenguaje['inicio'],$lenguaje['olvidar'],$lenguaje['selectIdioma'],$lenguaje['Terminos']);
+
 
 
 //portada principal
@@ -82,6 +84,10 @@ echo '<br><hr><br>';
 //section footer
 require_once 'componentes/footer.php';
 Footer();
+
+
+
+
 
 //cierre 
 require_once 'componentes/cierre.php';

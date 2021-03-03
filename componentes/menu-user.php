@@ -62,7 +62,18 @@
     box-shadow: 4px 4px 5px black;
 
 }
+.vinculo-celular2{
 
+    width: 90%;
+    background:  white;
+    color:#A97A00;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 5%;
+   
+}
 
 
 .elegido{
@@ -211,14 +222,14 @@ a:hover{
 
 
                 
-                <div class="vinculo-celular btn-idioma">'.$idioma.'</div>
+                <div class="vinculo-celular2 btn-idioma">'.$idioma.'</div>
 
 
                 <div class="cambiar-idioma  contenedor-form-registrarse">
 
                     <form action="idioma/idioma.php" method="post">
 
-                        <label>'.$selectIdioma.'</label><br>
+                        <label id="google_translate_element">'.$selectIdioma.'</label><br>
                         <select name="idioma">
                             <option value="Español">'.$español.'</option>
                             <option value="Ingles">'.$ingles.'</option>
@@ -241,12 +252,12 @@ a:hover{
 
 
 
-
+                <br>
                 <br>
                 <div class="linea"></div>
                 <br>
     
-                <div class="vinculo-celular btn-ingreso">
+                <div class="vinculo-celular2 btn-ingreso">
                    '.$ingresar.' 
                     <span class="ingresar-flecha"><i class="fas fa-sign-in-alt"></i></span>
                 </div>
@@ -268,6 +279,15 @@ a:hover{
                 <br><br>
                 
                 <button type="submit" class="btn fondo-1 btn-block"><h3>'.$ingresar.'</h3></button>
+                <br>
+                <div class="olvidaste-contraseña">
+                
+                    <a href="" class="lost-pass">'.$olvidar.'</a>
+                
+                </div>
+                <br>
+
+
                 
                 </form>
                 
@@ -277,20 +297,14 @@ a:hover{
 
 
                 
-                <br>
-                        <div class="olvidaste-contraseña">
-                        
-                            <a href="" class="lost-pass">'.$olvidar.'</a>
-                        
-                        </div>
-                        <br>
+            
+                
 
     
     
     
     
-    
-                <div class="vinculo-celular btn-registro">
+                <div class="vinculo-celular2 btn-registro">
                     '.$registrarse.'  
                     <span class="registrarse-flecha"><i class="fas fa-user-plus"></i></span>     
                                 

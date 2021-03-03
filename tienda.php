@@ -83,13 +83,13 @@
 
   );
 
-  echo '<div class="d-flex justify-content-around">';
+  echo '<div style="width:100%;height:120px;"><div style="width:100%;" class="position-absolute d-flex justify-content-around">';
 
    Categorias($miscategorias);
    require_once 'componentes/tienda/buscador.php';
 
   
-  echo '</div>';
+  echo '</div></div>';
 
   ScriptCategorias();
 
@@ -101,7 +101,7 @@
   //cards productos
   require_once 'componentes/tienda/cards-tienda.php';
 
-  echo '<div class=" contenedor-cards container-fluid  d-flex flex-wrap justify-content-center">';
+  echo '<div" style="width:100%;height:300px;"><div class=" contenedor-cards container-fluid  d-flex flex-wrap justify-content-center">';
 
   CardsTienda("Sombrero aguadeño tejido",'$ 10.57 USD','32','assets/img/runalotus.gif');
   CardsTienda("Sombrero aguadeño tejido",'$ 10.57 USD','42','assets/img/runalotus.gif');
@@ -109,7 +109,7 @@
   CardsTienda("Trio copas cubiertas en cuero",'$ 10.57 USD','62','assets/img/copas-png.png');
   CardsTienda("Trio copas cubiertas en cuero",'$ 10.57 USD','72','assets/img/copas-png.png');
   
-  echo '</div>';
+  echo '</div></div>';
 
   echo '<br><hr><br>';
 
