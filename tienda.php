@@ -93,6 +93,9 @@
 
   CardsTienda("Sombrero aguadeño tejido",'$ 10.57 USD','32','assets/img/runalotus.gif');
   CardsTienda("Trio copas cubiertas en cuero",'$ 8.57 USD','52','assets/img/copas-png.png');
+  CardsTienda("Porta esferos avion",'$ 10.57 USD','52','assets/img/productos/porta-esferos-avion-png.png');
+  CardsTienda("Porta esferos cicla",'$ 10.57 USD','52','assets/img/productos/porta-esferos-cicla-png.png');
+  CardsTienda("Porta esferos cicla",'$ 10.57 USD','52','assets/img/productos/porta-esferos-jirafa-png.png');
   CardsTienda("Bolso en figue Naranja",'$ 11.57 USD','52','assets/img/productos/bolso-figuenaranja.jpg');
   CardsTienda("Bolso en figue Rojo",'$ 9.57 USD','52','assets/img/productos/bolso-figuerojo.jpg');
   CardsTienda("Bolso en figue Verde",'$ 9.57 USD','52','assets/img/productos/bolso-figueverde.jpg');
@@ -101,6 +104,10 @@
   CardsTienda("Monedero textil mediano ",'$ 15.57 USD','52','assets/img/productos/monedero-chino-mediano.jpg');
   CardsTienda("Monedero textil pequeño",'$ 6.57 USD','52','assets/img/productos/monedero-chino-pequeño.jpg');
   CardsTienda("Monedero en iraca",'$ 3.57 USD','52','assets/img/productos/monedero-iraca.jpg');
+  CardsTienda("Monedero en iraca",'$ 3.57 USD','52','assets/img/productos/llavero1-png.png');
+  CardsTienda("Monedero en iraca",'$ 3.57 USD','52','assets/img/productos/llavero2-png.png');
+
+  
 
 
 
