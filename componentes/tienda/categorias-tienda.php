@@ -1,25 +1,6 @@
 <?php
 
-    function ScriptCategorias()
-    {
-
-        echo '<script>
- 
-        document.querySelector(".btn-categoria").addEventListener("click", function(){
-      
-           
-            $(".contenedor-categorias").toggleClass("d-none")
-      
-        });
-      
-      
-        </script>';
-      
-
-    }
-
-
-    function Categorias($categorias)
+    function Categorias($categorias,$titulo)
     {
         echo '
             <style>
@@ -53,8 +34,8 @@
                 .categorias{
 
                     width:40%;
-                    font-size:55px;
-                    margin-left:30%
+                    font-size:28px;
+                  
                 }
 
             }
@@ -69,8 +50,8 @@
         echo '
         
         <div  class="categorias p-3 pt-4 mb-5">
-        
-            <p class="btn-categoria btn-danger pb-2 d-flex justify-content-center"> Categorias</p>
+            
+            <p class="btn-categoria btn-danger pb-2 d-flex justify-content-center p-2"> '.$titulo.'</p>
 
             <div class="contenedor-categorias d-none">
             
@@ -80,7 +61,7 @@
        for($i=0;$i<count($categorias);$i++){
 
         echo '
-        <div style="width:100%;   color:#A97A00; " class="btn btn-light btn-block btn-categoria mt-3">
+        <div style="width:96%;margin-left:2%; color:#A97A00; " class="btn btn-light btn-block btn-categoria mt-4 mb-5">
         <h5>'.$categorias[$i].'</h5></div>';
 
        }
@@ -88,8 +69,26 @@
 
 
        echo '</div> </div>';//fin div categoria
+
+
+
+
+
+       echo '<script>
+ 
+        document.querySelector(".btn-categoria").addEventListener("click", function(){
+        
+            
+            $(".contenedor-categorias").toggleClass("d-none")
+        
+        });
+        
+        
+       </script>';
+     
     }
 
+    
  
 
 ?>

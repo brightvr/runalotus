@@ -1,22 +1,5 @@
 <?php
 
-  //cambio de idoma manualmente
-  session_start();
-  if(isset($_SESSION['idioma'])){
-
-    require_once 'idioma/idioma.php';
-    $lenguaje=IdiomaUsuaraio($_SESSION['idioma']);
-
-
-  }else{
-
-    //detectando idioma por defecto
-    require_once 'idioma/idioma.php';
-    $lenguaje=IdiomaUsuaraio(1);
-    //var_dump($lenguaje);
-
-  }
-
 
 
 
@@ -46,13 +29,13 @@
   
   //navbar
   require_once 'componentes/navbar.php';
-  Navbar($lenguaje['inicio'],$lenguaje['tienda'],$lenguaje['turismo'],'<i class="fas fa-user"></i>');
+  Navbar('Inicio','Tienda','Turismo','<i class="fas fa-user"></i>');
   
   
   
   //menu usuarios sin registro
   require_once 'componentes/menu-user.php';
-  MenuUsuarioSinRegistro($lenguaje['email'],$lenguaje['contraseña'],$lenguaje['registrarse'],$lenguaje['ingresar'],$lenguaje['usuario'],$lenguaje['pais'],$lenguaje['celular'],$lenguaje['idiomaInterfaz'],$lenguaje['español'],$lenguaje['ingles'],$lenguaje['portuges'],$lenguaje['aleman'],$lenguaje['ruso'],$lenguaje['Mandarin'],$lenguaje['guardar'],$lenguaje['tienda'],$lenguaje['turismo'],$lenguaje['inicio'],$lenguaje['olvidar'],$lenguaje['selectIdioma'],$lenguaje['Terminos']);
+  MenuUsuarioSinRegistro('Correo electronico','Contraseña','Ingresar','Registrarse','Nombre','Pais','Celular','Tienda','Turismo','Inicio','¿Olvidaste tu contraseña?','Acepto términos y condiciones');
 
 
   echo '<br><br><br><br>';
@@ -60,7 +43,7 @@
 
   //portada tienda
   require_once 'componentes/tienda/tienda-tienda.php';
-  PortadaTienda($lenguaje['exportadoresTienda']);
+  PortadaTienda('Somos exportadores de nuestra cultura');
 
   
   echo '<br><hr><br>';
@@ -69,6 +52,9 @@
 
   //categorias-buscador
   require_once 'componentes/tienda/categorias-tienda.php';
+  require_once 'componentes/tienda/buscador.php';
+
+  //array con las categorias
   $miscategorias=array(
 
     'Culturas',
@@ -83,15 +69,17 @@
 
   );
 
-  echo '<div style="width:100%;height:120px;"><div style="width:100%;" class="position-absolute d-flex justify-content-around">';
+  //contenedor buscador y categoriad
+  echo '<div style="width:100%;height:120px;"><div style="width:100%;" class="position-absolute d-flex justify-content-between">';
 
-   Categorias($miscategorias);
-   require_once 'componentes/tienda/buscador.php';
+   Categorias($miscategorias,'Categorias');
+   Buscador('Buscar','Buscar producto');
+  
 
   
   echo '</div></div>';
 
-  ScriptCategorias();
+
 
 
 
@@ -101,14 +89,21 @@
   //cards productos
   require_once 'componentes/tienda/cards-tienda.php';
 
-  echo '<div" style="width:100%;height:300px;"><div class=" contenedor-cards container-fluid  d-flex flex-wrap justify-content-center">';
+  echo '<br><hr><br><div" style="width:100%;height:300px;"><div class=" contenedor-cards container-fluid  d-flex flex-wrap justify-content-center">';
 
   CardsTienda("Sombrero aguadeño tejido",'$ 10.57 USD','32','assets/img/runalotus.gif');
-  CardsTienda("Sombrero aguadeño tejido",'$ 10.57 USD','42','assets/img/runalotus.gif');
-  CardsTienda("Trio copas cubiertas en cuero",'$ 10.57 USD','52','assets/img/copas-png.png');
-  CardsTienda("Trio copas cubiertas en cuero",'$ 10.57 USD','62','assets/img/copas-png.png');
-  CardsTienda("Trio copas cubiertas en cuero",'$ 10.57 USD','72','assets/img/copas-png.png');
-  
+  CardsTienda("Trio copas cubiertas en cuero",'$ 8.57 USD','52','assets/img/copas-png.png');
+  CardsTienda("Bolso en figue Naranja",'$ 11.57 USD','52','assets/img/productos/bolso-figuenaranja.jpg');
+  CardsTienda("Bolso en figue Rojo",'$ 9.57 USD','52','assets/img/productos/bolso-figuerojo.jpg');
+  CardsTienda("Bolso en figue Verde",'$ 9.57 USD','52','assets/img/productos/bolso-figueverde.jpg');
+  CardsTienda("Aguardientera estilo vueltiao",'$ 12.57 USD','52','assets/img/productos/botella.jpg');
+  CardsTienda("Aguardientera estilo Colombia",'$ 10.57 USD','52','assets/img/productos/botella-bandera.jpg');
+  CardsTienda("Monedero textil mediano ",'$ 15.57 USD','52','assets/img/productos/monedero-chino-mediano.jpg');
+  CardsTienda("Monedero textil pequeño",'$ 6.57 USD','52','assets/img/productos/monedero-chino-pequeño.jpg');
+  CardsTienda("Monedero en iraca",'$ 3.57 USD','52','assets/img/productos/monedero-iraca.jpg');
+
+
+
   echo '</div></div>';
 
   echo '<br><hr><br>';

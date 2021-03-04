@@ -11,8 +11,8 @@ function CardsTienda($nombre,$precio,$stock,$imagen){
 
     .card-runa{
 
-        width:340px;
-        height:560px;
+        width:300px;
+        height:500px;
         box-shadow: 6px 6px 8px black;
         margin-bottom:80px;
         margin-top:10px;
@@ -23,8 +23,8 @@ function CardsTienda($nombre,$precio,$stock,$imagen){
         .card-runa{
            
             margin:30px;
-            width:390px;
-            height:610px;
+            width:330px;
+            height:530px;
 
         }
         .contenedor-cards{
