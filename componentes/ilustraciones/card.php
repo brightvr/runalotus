@@ -98,7 +98,7 @@
        <rect class="eb6d63fd-9714-40d4-b934-447d4dd56488" y="95.5" width="360" height="38" rx="3"/>
        <g id="f376eb9b-b7d2-4ab7-ab13-5a3e8eed6fa6" data-name="nombre-producto">
          <text class="b46fef17-b03f-45b1-a670-4d8ddeb8e2c8" transform="translate(8 122.34)">'.$nombreProducto.'</text>
-         <text class="a4184cb1-bdff-4618-99eb-f05f64f0f1d0" transform="translate(75.27 47.42)">CULTURAS COLOMBIA<tspan class="eb3a5ec9-3cec-405b-9c46-28587352a945" x="227.2" y="0">N</tspan><tspan class="bae98715-d197-4084-9287-92ab0b0c3705" x="242.22" y="0">AS</tspan></text>
+         <text class="a4184cb1-bdff-4618-99eb-f05f64f0f1d0" transform="translate(75.27 47.42)">CULTURAS COLOMBIANAS</text>
        </g>
      </g>
      <g id="ffb877f9-7a32-41af-aafe-5fda59f11dfc" data-name="foto">
